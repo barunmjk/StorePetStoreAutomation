@@ -7,7 +7,7 @@
     <artifactId>StorePetStoreAutomation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- 🔥 Set Java Version -->
+   
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -30,14 +30,14 @@
 
     <dependencies>
 
-        <!-- ⭐ Selenium (only selenium-java required) -->
+         
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.25.0</version>
         </dependency>
 
-        <!-- ⭐ TestNG -->
+      
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -45,7 +45,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- ⭐ Rest-Assured -->
+         
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
@@ -64,28 +64,28 @@
             <version>5.5.5</version>
         </dependency>
 
-        <!-- ⭐ Jackson -->
+        
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.19.2</version>
         </dependency>
 
-        <!-- ⭐ Faker -->
+         
         <dependency>
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
 
-        <!-- ⭐ Reporting -->
+       
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>5.0.9</version>
         </dependency>
 
-        <!-- ⭐ Excel (Apache POI) -->
+        
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -98,14 +98,13 @@
             <version>5.4.1</version>
         </dependency>
 
-        <!-- ⭐ Playwright -->
+        
         <dependency>
             <groupId>com.microsoft.playwright</groupId>
             <artifactId>playwright</artifactId>
             <version>1.50.0</version>
         </dependency>
-
-        <!-- ⭐ Log4j2 -->
+ 
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -124,11 +123,6 @@
     <scope>provided</scope>
      </dependency>
      
-    
-
- 
-
-   
     </dependencies>
 
 </project>
